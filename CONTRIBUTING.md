@@ -182,6 +182,14 @@ git switch BRANCH_NAME
 git pull origin pull/ID/head
 ```
 
+### 在网页上查找并审核社区 PR
+
+如果你没有收到指定的审核邀请，也可以从 [OpenHUTB/.github 的 Pull requests 列表](https://github.com/OpenHUTB/.github/pulls) 浏览社区提交的修改。建议先查看状态为 Open 且不是 Draft 的 PR。
+
+打开 PR 后进入 **Files changed** 阅读改动。发现问题时可在对应代码行添加评论；检查完成后点 **Submit review**，选择 **Comment**（一般反馈）、**Approve**（认为改动可以合并）或 **Request changes**（建议作者先修改），再提交审核。没有写权限时仍可提交审核意见，但 GitHub 不会把批准计入合并所需的 review；请写清具体问题和依据，方便作者与维护者处理。
+
+
+
 
 
 ## 软件安装
